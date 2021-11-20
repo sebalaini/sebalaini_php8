@@ -12,6 +12,9 @@ RUN apt-get install -y libzip-dev zip && docker-php-ext-configure zip && docker-
 # Git
 RUN apt-get install -y git
 
+# mysql
+RUN docker-php-ext-install pdo_mysql
+
 # Curl
 RUN apt-get install -y libcurl3-dev curl && docker-php-ext-install curl
 
