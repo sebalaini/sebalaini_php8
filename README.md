@@ -1,1 +1,1 @@
-Custom build of PHP 8 for Laravel
+PHP 8 Custom docker image built for Laravel with mysql, opcache, redis, xdebug and composer
