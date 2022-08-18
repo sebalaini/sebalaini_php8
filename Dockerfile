@@ -1,7 +1,7 @@
-FROM php:8.0.13-fpm
+FROM php:8.1-fpm
 
 LABEL Maintainer="Sebastiano"
-LABEL Description="PHP 8.0 for Laravel with Xdebug and Composer"
+LABEL Description="PHP 8.1 for Laravel with Xdebug and Composer"
 
 # Starting from scratch
 RUN apt-get clean && apt-get -y autoremove && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
