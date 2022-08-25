@@ -1,1 +1,1 @@
-docker build -t $1 .
+docker build -t sebalaini/php8 .
