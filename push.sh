@@ -1,1 +1,1 @@
-docker push $1
+docker push sebalaini/php8
