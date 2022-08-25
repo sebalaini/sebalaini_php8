@@ -1,1 +1,1 @@
-docker run $1
+docker run sebalaini/php8
